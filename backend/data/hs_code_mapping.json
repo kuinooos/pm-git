@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "description": "HS Code 与碳关税 (CBAM/CCA) 管控品类对照表",
+    "version": "1.0",
+    "last_updated": "2025-07-08"
+  },
+
+  "mappings": [
+    {
+      "hs_code": "7208",
+      "hs_description": "热轧钢铁板材, 宽度>=600mm",
+      "cbam_category": "steel",
+      "cca_category": "steel",
+      "cbam_subject": true,
+      "cca_subject": true,
+      "notes": "CBAM 管控范围内的钢铁制品"
+    },
+    {
+      "hs_code": "7213",
+      "hs_description": "热轧钢筋, 不规则盘卷",
+      "cbam_category": "steel",
+      "cca_category": "steel",
+      "cbam_subject": true,
+      "cca_subject": true,
+      "notes": "螺纹钢等建筑钢材"
+    },
+    {
+      "hs_code": "7214",
+      "hs_description": "其他热轧钢筋, 含凹槽/孔等",
+      "cbam_category": "steel",
+      "cca_category": "steel",
+      "cbam_subject": true,
+      "cca_subject": true,
+      "notes": ""
+    },
+    {
+      "hs_code": "7225",
+      "hs_description": "合金钢宽板材, 宽度>=600mm",
+      "cbam_category": "steel",
+      "cca_category": "steel",
+      "cbam_subject": true,
+      "cca_subject": true,
+      "notes": ""
+    },
+    {
+      "hs_code": "7601",
+      "hs_description": "未锻轧铝",
+      "cbam_category": "aluminum",
+      "cca_category": "aluminum",
+      "cbam_subject": true,
+      "cca_subject": true,
+      "notes": "原铝及铝合金"
+    },
+    {
+      "hs_code": "7604",
+      "hs_description": "铝条杆/型材/异型材",
+      "cbam_category": "aluminum",
+      "cca_category": "aluminum",
+      "cbam_subject": true,
+      "cca_subject": true,
+      "notes": "铝制结构型材"
+    },
+    {
+      "hs_code": "7605",
+      "hs_description": "铝丝",
+      "cbam_category": "aluminum",
+      "cca_category": "aluminum",
+      "cbam_subject": true,
+      "cca_subject": true,
+      "notes": ""
+    },
+    {
+      "hs_code": "7606",
+      "hs_description": "铝板/片/带, 厚度>0.2mm",
+      "cbam_category": "aluminum",
+      "cca_category": "aluminum",
+      "cbam_subject": true,
+      "cca_subject": true,
+      "notes": "铝板材深加工产品"
+    },
+    {
+      "hs_code": "2523",
+      "hs_description": "硅酸盐水泥 (含熟料)",
+      "cbam_category": "cement",
+      "cca_category": "cement",
+      "cbam_subject": true,
+      "cca_subject": true,
+      "notes": "包括波特兰水泥、矿渣水泥等"
+    },
+    {
+      "hs_code": "2821",
+      "hs_description": "无机化肥及复合肥",
+      "cbam_category": "fertilizer",
+      "cca_category": null,
+      "cbam_subject": true,
+      "cca_subject": false,
+      "notes": "CBAM 管控, CCA 暂未覆盖"
+    },
+    {
+      "hs_code": "3102",
+      "hs_description": "矿物氮肥及化学氮肥",
+      "cbam_category": "fertilizer",
+      "cca_category": null,
+      "cbam_subject": true,
+      "cca_subject": false,
+      "notes": "尿素、硝酸铵等"
+    },
+    {
+      "hs_code": "2804",
+      "hs_description": "氢气、稀有气体等",
+      "cbam_category": "hydrogen",
+      "cca_category": null,
+      "cbam_subject": true,
+      "cca_subject": false,
+      "notes": "CBAM 2026年起管控氢气"
+    },
+    {
+      "hs_code": "2716",
+      "hs_description": "电力",
+      "cbam_category": "electricity",
+      "cca_category": null,
+      "cbam_subject": true,
+      "cca_subject": false,
+      "notes": "电力进口受CBAM管控"
+    },
+    {
+      "hs_code": "7616",
+      "hs_description": "其他铝制品",
+      "cbam_category": "aluminum",
+      "cca_category": "aluminum",
+      "cbam_subject": true,
+      "cca_subject": true,
+      "notes": "铝制零部件/配件"
+    },
+    {
+      "hs_code": "7308",
+      "hs_description": "钢铁结构体及部件",
+      "cbam_category": "steel",
+      "cca_category": "steel",
+      "cbam_subject": true,
+      "cca_subject": true,
+      "notes": "钢结构建筑部件"
+    },
+    {
+      "hs_code": "8481",
+      "hs_description": "阀门/龙头等管件",
+      "cbam_category": null,
+      "cca_category": null,
+      "cbam_subject": false,
+      "cca_subject": false,
+      "notes": "一般不受碳关税直接管控, 但如含铝/钢组件可能间接涉及"
+    }
+  ]
+}
